@@ -51,3 +51,8 @@ chronoControllers.controller('AboutCtrl', ['$scope', function AboutCtrl($scope)
 {
 
 }]);
+
+chronoControllers.controller('EventsCtrl', ['$scope', function EventsCtrl($scope)
+{
+
+}]);
