@@ -127,7 +127,12 @@ a.pdf:before {
 
 .home1 {
   background: #2A6096;
-  color: white; }
+  color: white;
+       }
+.home1 a:link
+	     {
+	      color: yellow;
+	     }
 
 .home2 {
   background: #F0F0F0;
@@ -147,10 +152,6 @@ a.pdf:before {
   margin: 0 0 15px 0;
   font-weight: 500;
   font-size: 28px; }
-
-#home-news a {
-  text-decoration: underline;
-  color: black; }
 
 #downloads table img {
   margin-right: 15px; }
