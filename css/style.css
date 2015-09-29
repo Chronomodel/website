@@ -182,19 +182,14 @@ a.pdf:before {
   text-align: center; }
 
 #footer1 a {
-  display: block;
+  display: inline-block;
   margin: 0 20px;
   text-decoration: none; }
 
-#footer1 a.left {
-  float: left; }
-
-#footer1 a.right {
-  float: right; }
-
 #footer1 img {
-  height: 80px;
-  display: inline-block; }
+  max-height: 80px;
+  display: inline-block;
+}
 
 #footer2 {
   background: #444;
@@ -219,5 +214,14 @@ a.pdf:before {
 
 #downloads .slide-dwl-1 {
   background: #F0F0F0; }
+
+.but-cell{
+  vertical-align: middle;
+}
+
+.modal-header p{
+  font-size: 14px;
+  margin: 5px 0;
+}
 
 /*# sourceMappingURL=style.css.map */

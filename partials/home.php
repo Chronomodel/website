@@ -24,14 +24,14 @@
         </div>
     </div>
 
-    <div class="container-fluid">
-                    <h3>Contacts : </h3>
-                    <p>
-                    For further information contact us :  <a href="mailto:contact@chronomodel.fr">email</a>
-                    </p>
-                    <p>
-                    Director of project:  Philippe LANOS (CNRS)   <a href="mailto:philippe.lanos@univ-rennes1.fr">email</a> <br>
-                    Co-director : Anne PHILIPPE (Univ Nantes)  <a href="mailto:anne.philippe@univ-nantes.fr">email</a>  and  <a href="http://www.math.sciences.univ-nantes.fr/~philippe/home.html"> homepage </a>
-                    </p> 
+    <div class="container">
+        <h3>Contacts : </h3>
+        <p>
+        For further information contact us :  <a href="mailto:contact@chronomodel.fr">email</a>
+        </p>
+        <p>
+        Director of project:  Philippe LANOS (CNRS)   <a href="mailto:philippe.lanos@univ-rennes1.fr">email</a> <br>
+        Co-director : Anne PHILIPPE (Univ Nantes)  <a href="mailto:anne.philippe@univ-nantes.fr">email</a>  and  <a href="http://www.math.sciences.univ-nantes.fr/~philippe/home.html"> homepage </a>
+        </p> 
     </div>
 </div>
