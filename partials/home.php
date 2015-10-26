@@ -12,7 +12,7 @@
                     <p>The ChronoModel Application is intended to provide tools for constructing chronologies in archaeology in combining Events, Phases and temporal constraints.</p>
                     <p>Models can be developed including data from any dating methods (14C, TL/OSL, AM, typo-chronology, …) and from archaeological and environmental contexts (stratigraphy, ordering between phases, duration or hiatus constraints).</p>
                     <p>A user-friendly interface is proposed for entering the data, MCMC calculations can be inspected in details, models and results are presented using the Bayesian statistical framework.</p>
-                    <p>ChronoModel is a free and open-source cross-platform software (Mac, Windows, Linux). The current version 1.0 works with different calibration curves for 14C and Archaeomagnetism. <a href="#/downloads">It is available for downloading.</a></p>
+                    <p>ChronoModel is a free and open-source cross-platform software (Mac, Windows, Linux). The current version 1.0 works with different calibration curves for 14C and Archaeomagnetism. It is available <a href="downloads"> here </a> for downloading.</p>
 
                     <!--a class="btn btn-primary" href="#/downloads">
                         Download Now !
