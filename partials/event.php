@@ -8,12 +8,10 @@
     
     <div id="home-events" class="slide home1">
         <div class="container">
-                    <h3> Apprentissage du logiciel de modélisation chronologique « chronomodel » </h3>
-                <br> La formation a pour but d’apporter une réponse à la demande d’outils pour analyser les données chronologiques fournies par les laboratoires de datation, par l’étude des mobiliers archéologiques, par l’étude des textes ou encore des archives sédimentaires, grâce à l’apprentissage d’un nouveau logiciel : Chronomodel
-                
-                <br>  Date :  19 au  23 Octobre  2015
-                <br>  Lieu : Bibracte, Mont Beuvray - Morvan
-                <br>  Contact :  <a href="mailto:philippe.lanos@univ-rennes1.fr"> Philippe Lanos email </a>
+                    <h3>  Conference - Bayesian statistics applied to archaeology </h3>
+                <br> Thematic semester 2016 - Statistics : centre Henri Lebesgue
+                <br>  from May 24th to May 26th, <br> Nantes university 
+                <br>  Contact :  <a href="mailto:anne.philippe@univ-nantes.fr"> Anne Philippe </a>
         </div>
     </div>
 
@@ -24,7 +22,19 @@
         </div>
    </div>
    
-   <div id="home-events" class="slide home1">
+    <div id="home-events" class="slide home1">
+        <div class="container">
+                    <h3> Apprentissage du logiciel de modélisation chronologique « chronomodel » </h3>
+                <br> La formation a pour but d’apporter une réponse à la demande d’outils pour analyser les données chronologiques fournies par les laboratoires de datation, par l’étude des mobiliers archéologiques, par l’étude des textes ou encore des archives sédimentaires, grâce à l’apprentissage d’un nouveau logiciel : Chronomodel
+                
+                <br>  Date :  19 au  23 Octobre  2015
+                <br>  Lieu : Bibracte, Mont Beuvray - Morvan
+                <br>  Contact :  <a href="mailto:philippe.lanos@univ-rennes1.fr"> Philippe Lanos email </a>
+        </div>
+    </div>
+
+   
+   <div id="home-events" class="slide home2">
        <div class="container">
            <h3>Post Dotoral position in applied statisticts</h3>
            <h4> A new statistical tool for OSL dating </h4>
@@ -38,7 +48,7 @@
        </div>
    </div>
    
-   <div id="home-events" class="slide home2">
+   <div id="home-events" class="slide home1">
        <div class="container">
            <div class="row">
                <div class="col-sm-6">
