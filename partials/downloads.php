@@ -1,3 +1,10 @@
+<?php
+
+$version_ok = false;
+
+?>
+
+
 <div id="downloads">
 
     <div class="slide slide-intro">
@@ -11,42 +18,91 @@
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - -->
     <div class="slide slide-dwl-2">
         <div class="container">
-            <p>Chronomodel is an open source project. You can download the source code and compile everything yourself from scratch.</p>
+
+            <h2>Get source code</h2>
             <p>
-                Chronomodel is hosted on <a href="https://github.com/Chronomodel/chronomodel" target="_blank">GitHub.com</a>. You can clone the repository by typing :
+                Chronomodel is an open source project.
+                You can download the source code and compile everything yourself from scratch.
+                It is built on <a href="http://qt-project.org/" target="_blank">Qt 5</a> and uses <a href="http://www.fftw.org/" target="_blank">FFTW library</a>.
+                The only pre-requisite to build it yourself is to have Qt 5 installed on your system.
+                The project is hosted on <a href="https://github.com/Chronomodel/chronomodel" target="_blank">GitHub.com</a>. You can clone the repository by typing :
                 <pre>git clone https://github.com/Chronomodel/chronomodel.git</pre>
             </p>
-            <p>Chronomodel is built on <a href="http://qt-project.org/" target="_blank">Qt 5</a> and uses <a href="http://www.fftw.org/" target="_blank">FFTW library</a>.
-                The only pre-requisite to build the software is to have Qt 5 installed on your system.</p>
-            <p>We provide pre-compiled binary versions of the latest version of the application for convenience :</p>
 
-            <table class="table table-stripped table-bordered">
-                <tr>
-                    <th colspan="2">Chronomodel 1.1</th>
-                </tr>
-                <tr>
-                    <td><img src="images/platforms/mac.png" height="50">Mac OS X 10.9 Mavericks, 10.10 Yosemite</td>
-                    <td class="but-cell">
+            <h2>Download latest version</h2>
+            <p>For convenience, we provide pre-compiled binaries of the latest version of the application :</p>
+            <?php if($version_ok): ?>
+            <div class="download-item">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="title">Chronomodel 1.4 for Mac OS X (December 2015)</div>
+                        <div class="subtitle">Supported : 10.7 (Lion), 10.8 (Mountain Lion), 10.9 (Mavericks), 10.10 (Yosemite), 10.11 (El Capitan)</div>
+                    </div>
+                    <div class="col-sm-4">
                         <!-- - - - - - - - - - - - - - - - - - - - - - - - - - -->
                         <!-- IMPORTANT : ne pas oublier "os" et "version", ainsi que la class "download-btn" -->
                         <!-- - - - - - - - - - - - - - - - - - - - - - - - - - -->
-                        <a class="btn btn-primary btn-block download-btn" version="1.1" os="mac">
-                            <span class="glyphicon glyphicon-download"></span> Download
+                        <a class="download-btn" version="1.4" os="mac">
+                            <!--span class="glyphicon glyphicon-download"></span--> Download
                         </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td><img src="images/platforms/windows.png" height="50">Windows 32 bits (XP, Vista, 7, 8)</td>
-                    <td>
+                    </div>
+                </div>
+            </div>
+            <div class="download-item">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="title">Chronomodel 1.4 for Windows 32 bits (December 2015)</div>
+                        <div class="subtitle">Supported : Windows 7, Windows 8, Windows 10</div>
+                    </div>
+                    <div class="col-sm-4">
                         <!-- - - - - - - - - - - - - - - - - - - - - - - - - - -->
                         <!-- IMPORTANT : ne pas oublier "os" et "version", ainsi que la class "download-btn" -->
                         <!-- - - - - - - - - - - - - - - - - - - - - - - - - - -->
-                        <a class="btn btn-primary btn-block download-btn" version="1.1" os="win">
-                            <span class="glyphicon glyphicon-download"></span> Download
+                        <a class="download-btn" version="1.4" os="win">
+                            <!--span class="glyphicon glyphicon-download"></span--> Download
                         </a>
-                    </td>
-                </tr>
-            </table>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Download older versions</h2>
+            <p>Old published versions of Chronomodel are provided here. 
+            <br>
+            <?php endif; ?>
+            For a full list of releases and pre-releases, please visit 
+            <a href="https://github.com/Chronomodel/chronomodel/releases" target="_blank">our "Releases" page on GitHub</a>.</p>
+            <div class="download-item">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="title">Chronomodel 1.1 for Mac OS X (January 2015)</div>
+                        <div class="subtitle">Supported : 10.9 (Mavericks), 10.10 (Yosemite)</div>
+                    </div>
+                    <div class="col-sm-4">
+                        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                        <!-- IMPORTANT : ne pas oublier "os" et "version", ainsi que la class "download-btn" -->
+                        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                        <a class="download-btn" version="1.1" os="mac">
+                            <!--span class="glyphicon glyphicon-download"></span--> Download
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="download-item">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="title">Chronomodel 1.1 for Windows 32 bits (January 2015)</div>
+                        <div class="subtitle">Supported : Windows XP, Windows Vista, Windows 7, Windows 8</div>
+                    </div>
+                    <div class="col-sm-4">
+                        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                        <!-- IMPORTANT : ne pas oublier "os" et "version", ainsi que la class "download-btn" -->
+                        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                        <a class="download-btn" version="1.1" os="win">
+                            <!--span class="glyphicon glyphicon-download"></span--> Download
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -56,34 +112,99 @@
     <div class="slide slide-dwl-1">
         <div class="container">
 
-            <p>
-                <h4>Fixed on version 1.1</h4>
+        <h2>Release Notes</h2>
+
+        <?php if(true): ?>
+        <div class="release-notes">
+            <div class="title">
+                <i class="glyphicon glyphicon-chevron-right"></i>
+                <i class="glyphicon glyphicon-chevron-down"></i>
+                Version 1.4
+            </div>
+            <div class="content">
+                <h4>New Features</h4>
+                <ul>
+                    <li>Data can now be evaluated outside of study period by calibration and MCMC (Events and phases are still constrained on study period).</li>
+                    <li>Calibration view shows "out of bounds" regions if reference curve is not defined on study period.</li>
+                    <li>Calibration view shows "out of bounds" regions if calibrated density is outside study period.</li>
+                    <li>Data are marked as "invalid" if the calibration process gives no result on the whole reference curve definition (even outside study period). In that case, MCMC cannot run !
+                        For example : if a measure (green on the graph) never crosses the reference curve (blue on the graph), then the calibrated density is considered as null and the date is maked invalid.</li>
+                    <li>Memory usage improvement : reference curves are not stored on a per year basis anymore (but only using existing points in ref file).</li>
+                    <li>Memory usage improvement : calibrated data and repartition curves values are stored only where they reside (not on a per year basis on the whole study period).</li>
+                    <li>FFT result (posterior density) is not truncated on study period anymore.</li>
+                    <li>MCMC : All events and data methods can be reset to their default values from the "MCMC" Menu.</li>
+                    <li>MCMC : New "Mixing Level" parameter. This is related to the ability to find solutions outside study period for dates. The default value of 0.99 is recommanded for most cases.</li>
+                    <li>Settings Dialog (Preferences) : New dialog layout combining app settings and data method settings.</li>
+                    <li>Application Settings (Preferences) : "Languague" is added not to translate the application but to modify the way number input works : using "." or "," for decimal separators.</li>
+                    <li>Application Settings (Preferences) : new image export parameters to control pixel, ratio, dpm and compression factor (quality).</li>
+                    <li>Application Settings (Preferences) : Time scale display can be BC/AD, CalBP, Cal B2K. This applis to Results and Calibration Views. WARNING : Study Period input is always in BC/AD !</li>
+                    <li>Data Method Settings (Preferences) : Reference curves can be added or removed for 14C, Gauss and AM.</li>
+                    <li>New "Actions" menu in menu bar to perform grouped actions on selected events (change name, color, method). In the future, specific grouped actions for each data types will be added (14C, TL, ...). At the moment, the only one is "Changing all selected 14C reference curve".</li>
+                    <li>Un-zooming on events scene hides calibrated dates' thumbnail AND bounds thumbnail.</li>
+                    <li>Search box on event's scene is shown only if overview is visible.</li>
+                    <li>Data Method Gauss : now possible to use custom curves!</li>
+                    <li>General layout improved for data method input dialogs, bounds properties view and results view.</li>
+                    <li>"c" and "Esc" keyboards shortcuts can toggle Calibration window.</li>
+                    <li>Results view : "Fill opacity" can be controled.</li>
+                    <li>Results view : Post. Distrib options stay in memory when navigating through tabs are re-launching MCMC.</li>
+                    <li>Results view : Better text log for numerical results.</li>
+                    <li>Results view : CSV exports improved with all history plots and numerical results</li>
+                    <li>Many others minor improvements ! (<a href="https://github.com/Chronomodel/chronomodel/commits/master" target="_blank">see commits on GitHub for more details</a>)</li>
+                </ul>
+                <h4>Bug fixes</h4>
+                <ul>
+                    <li>About dialogs can be closed correctly.</li>
+                    <li>When quitting, the app asks to save the current project only once.</li>
+                    <li>MCMC doesn't crash anymore when canceling dialog progress box.</li>
+                </ul>
+                <h4>Known issues</h4>
+                <ul>
+                    <li>Running MCMC on large models can freeze the application on computers with not enough RAM (Random Access Memory). The MCMC process goes all the way to the end on most cases but the results cannot be displayed because graphical representations are memory consumming. We currently work on a new architecture of the code to solve this issue.</li>
+                    <li>The red rectangle corresponding to the zoom on the scene overview can appear shifted on large models.</li>
+                    <li>Using pixel ratio > 1 in export image preferences could scale text fonts unappropriatly (depends on platforms)</li>
+                    <li>Many improvements on graphs display and zooming performances (nothing "visible" though...)</li>
+                    <li>Event properties' view layout improved with better enable/disable states of controls.</li>
+                    <li>Data Method Gauss : using the "equation" mode with first parameter not null (the t^2 factor) can break the calibration display on large study period : Y scale is very large and cannot display correctly.</li>
+                </ul>
+            </div>
+        </div>
+        <?php endif; ?>
+
+        <div class="release-notes">
+            <div class="title">
+                <i class="glyphicon glyphicon-chevron-right"></i>
+                <i class="glyphicon glyphicon-chevron-down"></i>
+                Version 1.1
+            </div>
+            <div class="content">
+                <h4>New Features</h4>
                 <ul>
                     <li>Search field added on the events scene.</li>
                     <li>When exporting the model's data as CSV, data are grouped by event and comments with event names are added in the CSV file.</li>
                     <li>FFTW library version for Mac downgraded from 3.3.4 to 3.2.2 to ensure Mac OS X 10.7 support.</li>
-                    <li>PNG image size can is 4 times bigger than screen resolution.</li>
+                    <li>PNG image size is 4 times bigger than screen resolution.</li>
                     <li>In results view, when browsing by phases, you can now also display data under phases and events by unfolding the results.</li>
                     <li>Duration graph added for phases.</li>
                     <li>CSV import : comments in CSV source file are now displayed in Chronomodel's user interface.</li>
                     <li>When drag-and-dropping data from CSV import to the scene, the data name is used as the newly created event's name.</li>
-                    <li>Better event merge, solving a bug that occured sometimes when merging...</li>
-                    <li>Graph data export fixed on posterior densities.</li>
-                    <li>Calculation issues for models using bounds solved.</li>
                     <li>HPD multi-intervals displayed with their respective percentage.</li>
                     <li>Calculations improvements.</li>
                 </ul>
-            </p>
-
-            <p>
+                <h4>Bug fixes</h4>
+                <ul>
+                    <li>Better event merge, solving a bug that occured sometimes when merging...</li>
+                    <li>Graph data export fixed on posterior densities.</li>
+                    <li>Calculation issues for models using bounds solved.</li>
+                </ul>
                 <h4>Known issues</h4>
                 <ul>
                     <li>There is calculation problem using a "Wiggle Matching" of type "Range" on C14 data.</li>
                     <li>The red square on the model overview tool may appear shifted from its real position and thus not correspond exactly to the currently viewed area. This happens on large models only.</li>
                     <li>If a warning appears during calculations : simply relaunch it. This limitation is due to a numerical overflow when dealing with extreme values. We are currently working on a fix!</li>
                 </ul>
-            </p>
+            </div>
         </div>
+
     </div>
 
 </div>
