@@ -13,13 +13,22 @@
         <h3> Documentation  on chronomodel software. </h3>
             
             
- <h4>User’s manual of Chronomodel  <a class="pdf" href="Chronomodel_User_Manual.pdf"> </a>
- </h4>
+ <ul> 
+ <li> Vibet, M.-A., Philippe, A., Lanos, P., and Dufresne, P. (2015) User’s manual of Chronomodel  <a class="pdf" href="Chronomodel_User_Manual.pdf"> </a></li>
+ 
+ <li> Vibet, M.-A., Philippe, A. (2016) A first modelling tutorial with ChronoModel.   Slides in english <a class="pdf" href="document/Presentation1_ChronoModel_En.pdf"> </a> and 
+in french  <a class="pdf" href="document/Presentation1_ChronoModel_Fr.pdf"> </a>  </li>
+ </ul>
+ 
+ 
  
  <h4>  Papers associated with the software </h4>
  <ul>
-     <li> Ph Lanos, A. Philippe (2015) Hierarchical Bayesian modeling for combining Dates in archaeological context Access : <a href="https://hal.archives-ouvertes.fr/hal-01162404/document"> pdf </a>
+     <li> Ph Lanos, A. Philippe (2015) Event model: a robust Bayesian tool for chronological modeling. Access : <a class="pdf" href="https://hal.archives-ouvertes.fr/hal-01241720/document"> </a>
      </li>
+<li> Ph Lanos, A. Philippe (2015) Hierarchical Bayesian modeling for combining Dates in archaeological context Access : <a class="pdf" href="https://hal.archives-ouvertes.fr/hal-01162404v3/document"> </a>
+</li>
+
 </ul>
 
     </div>
