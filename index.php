@@ -146,6 +146,11 @@ $page = (count($uri_params) > 0) ? $uri_params[0] : "home";
 
             $("#dialog").modal("show");
         });
+
+        $(".release-notes .title").click(function(){
+            var elt = $(this).closest(".release-notes");
+            elt.toggleClass("opened");
+        });
     });
     </script>
 

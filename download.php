@@ -44,7 +44,12 @@ $result = $db->create('downloads', array(
 //  Trouver le fichier à télécharger
 // ---------------------------------------------------
 $filename = 'chronomodel_'.$os.'_'.$version;
-if($os == 'mac') $filename .= '.pkg';
+if($os == 'mac'){
+    if($version == '1.1')
+        $filename .= '.pkg';
+    else if($version == '1.4')
+        $filename .= '.dmg';
+}
 else if($os == 'win') $filename .= '.exe';
 $filepath = __DIR__.'/releases/'.$filename;
 

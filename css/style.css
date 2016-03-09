@@ -19,7 +19,11 @@ h2 {
   line-height: 40px;
   font-size: 30px;
   font-weight: 300;
-  margin: 0 0 60px 0; }
+  margin: 50px 0 30px 0; }
+
+h2:first-child{
+  margin-top: 0;
+}
 
 h3 {
   font-size: 26px;
@@ -155,6 +159,84 @@ a.pdf:before {
 
 #downloads table img {
   margin-right: 15px; }
+
+#downloads h2{
+  margin: 35px 0 20px 0;
+}
+#downloads h2:first-child{
+  margin-top: 0;
+}
+
+.download-item, pre{
+  margin: 10px 0 0 0;
+  padding: 10px 15px;
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+.download-item .title{
+  font-weight: 600;
+}
+.download-item .subtitle{
+  font-size: 13px;
+  color: #888;
+}
+.download-item a.download-btn{
+  cursor: pointer;
+  display: block;
+  height: 43px;
+  line-height: 43px;
+  padding: 0 15px;
+  color: white;
+  background: #2A6096;
+  text-align: center;
+  text-decoration: none;
+}
+.download-item a.download-btn:hover, 
+.download-item a.download-btn:focus{
+  color: white;
+  text-decoration: none;
+  background: #4D7296;
+}
+
+.release-notes{
+  margin: 0 0 10px 0;
+  overflow: hidden;
+  padding: 10px 15px;
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+}
+.release-notes .title{
+  cursor: pointer;
+  font-weight: 600;
+}
+.release-notes .title .glyphicon-chevron-down{
+  display: none;
+}
+.release-notes.opened .title .glyphicon-chevron-down{
+  display: inline;
+}
+.release-notes .title .glyphicon-chevron-right{
+  display: inline;
+}
+.release-notes.opened .title .glyphicon-chevron-right{
+  display: none;
+}
+.release-notes .content{
+  max-height: 0px;
+  overflow: hidden;
+
+  transition: all 0.3s ease;
+}
+.release-notes.opened .content{
+  max-height: 100000px;
+}
+.release-notes .content h4{
+  margin: 25px 0 15px 0;
+  font-weight: 600;
+}
+
+
 
 #features .slide img {
   box-shadow: 0 0 20px black; }
