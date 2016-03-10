@@ -47,7 +47,7 @@ $filename = 'chronomodel_'.$os.'_'.$version;
 if($os == 'mac'){
     if($version == '1.1')
         $filename .= '.pkg';
-    else if($version == '1.4')
+    else if($version == '1.5')
         $filename .= '.dmg';
 }
 else if($os == 'win') $filename .= '.exe';

@@ -51,7 +51,7 @@ $version_ok = true;
             <div class="download-item">
                 <div class="row">
                     <div class="col-sm-8">
-                        <div class="title">Chronomodel 1.4 for Windows 32 bits (December 2015)</div>
+                        <div class="title">Chronomodel 1.5 for Windows 32 bits (March 2016)</div>
                         <div class="subtitle">Supported : Windows 7, Windows 8, Windows 10</div>
                     </div>
                     <div class="col-sm-4">
@@ -124,38 +124,6 @@ $version_ok = true;
             <div class="content">
                 <h4>New Features</h4>
                 <ul>
-                    <li>Data can now be evaluated outside of study period by calibration and MCMC (Events and phases are still constrained on study period).</li>
-                    <li>Calibration view shows "out of bounds" regions if reference curve is not defined on study period.</li>
-                    <li>Calibration view shows "out of bounds" regions if calibrated density is outside study period.</li>
-                    <li>Data are marked as "invalid" if the calibration process gives no result on the whole reference curve definition (even outside study period). In that case, MCMC cannot run !
-                        For example : if a measure (green on the graph) never crosses the reference curve (blue on the graph), then the calibrated density is considered as null and the date is maked invalid.</li>
-                    <li>Memory usage improvement : reference curves are not stored on a per year basis anymore (but only using existing points in ref file).</li>
-                    <li>Memory usage improvement : calibrated data and repartition curves values are stored only where they reside (not on a per year basis on the whole study period).</li>
-                    <li>FFT result (posterior density) is not truncated on study period anymore.</li>
-                    <li>MCMC : All events and data methods can be reset to their default values from the "MCMC" Menu.</li>
-                    <li>MCMC : New "Mixing Level" parameter. This is related to the ability to find solutions outside study period for dates. The default value of 0.99 is recommanded for most cases.</li>
-                    <li>Settings Dialog (Preferences) : New dialog layout combining app settings and data method settings.</li>
-                    <li>Application Settings (Preferences) : "Languague" is added not to translate the application but to modify the way number input works : using "." or "," for decimal separators.</li>
-                    <li>Application Settings (Preferences) : new image export parameters to control pixel, ratio, dpm and compression factor (quality).</li>
-                    <li>Application Settings (Preferences) : Time scale display can be BC/AD, CalBP, Cal B2K. This applis to Results and Calibration Views. WARNING : Study Period input is always in BC/AD !</li>
-                    <li>Data Method Settings (Preferences) : Reference curves can be added or removed for 14C, Gauss and AM.</li>
-                    <li>New "Actions" menu in menu bar to perform grouped actions on selected events (change name, color, method). In the future, specific grouped actions for each data types will be added (14C, TL, ...). At the moment, the only one is "Changing all selected 14C reference curve".</li>
-                    <li>Un-zooming on events scene hides calibrated dates' thumbnail AND bounds thumbnail.</li>
-                    <li>Search box on event's scene is shown only if overview is visible.</li>
-                    <li>Data Method Gauss : now possible to use custom curves!</li>
-                    <li>General layout improved for data method input dialogs, bounds properties view and results view.</li>
-                    <li>"c" and "Esc" keyboards shortcuts can toggle Calibration window.</li>
-                    <li>Results view : "Fill opacity" can be controled.</li>
-                    <li>Results view : Post. Distrib options stay in memory when navigating through tabs are re-launching MCMC.</li>
-                    <li>Results view : Better text log for numerical results.</li>
-                    <li>Results view : CSV exports improved with all history plots and numerical results</li>
-                    <li>Many others minor improvements ! (<a href="https://github.com/Chronomodel/chronomodel/commits/master" target="_blank">see commits on GitHub for more details</a>)</li>
-                </ul>
-                <h4>Bug fixes</h4>
-                <ul>
-                    <li>About dialogs can be closed correctly.</li>
-                    <li>When quitting, the app asks to save the current project only once.</li>
-                    <li>MCMC doesn't crash anymore when canceling dialog progress box.</li>
                     <li>Individual Dates can be evaluated outside the study period but the curves of posterior are plotted on the study period).</li>
                     <li>Calibration view shows "out of bounds" regions if calibrated density is outside study period.</li>
                     <li>Data are marked as "not computable" if the calibration process gives no result on the whole reference curve definition
@@ -192,13 +160,12 @@ $version_ok = true;
                     <li>Using pixel ratio > 1 in export image preferences could scale text fonts unappropriatly (depends on platforms)</li>
                     <li>Many improvements on graphs display and zooming performances (nothing "visible" though...)</li>
                     <li>Event properties' view layout improved with better enable/disable states of controls.</li>
-                    <li>Data Method Gauss : using the "equation" mode with first parameter not null (the t^2 factor) can break the calibration display on large study period : Y scale is very large and cannot display correctly.</li>
                     <li>Data Method Gauss : using the "equation" mode with first parameter not null (the t^2 factor) can break the calibration display on large study period : Y scale is very large and cannot be displayed correctly.</li>
                 </ul>
             </div>
         </div>
         <?php endif; ?>
-
+        
         <div class="release-notes">
             <div class="title">
                 <i class="glyphicon glyphicon-chevron-right"></i>
