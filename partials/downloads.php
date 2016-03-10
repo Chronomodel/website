@@ -1,6 +1,6 @@
 <?php
 
-$version_ok = false;
+$version_ok = true;
 
 ?>
 
@@ -35,14 +35,14 @@ $version_ok = false;
             <div class="download-item">
                 <div class="row">
                     <div class="col-sm-8">
-                        <div class="title">Chronomodel 1.4 for Mac OS X (December 2015)</div>
+                        <div class="title">Chronomodel 1.5 for Mac OS X (March 2016)</div>
                         <div class="subtitle">Supported : 10.7 (Lion), 10.8 (Mountain Lion), 10.9 (Mavericks), 10.10 (Yosemite), 10.11 (El Capitan)</div>
                     </div>
                     <div class="col-sm-4">
                         <!-- - - - - - - - - - - - - - - - - - - - - - - - - - -->
                         <!-- IMPORTANT : ne pas oublier "os" et "version", ainsi que la class "download-btn" -->
                         <!-- - - - - - - - - - - - - - - - - - - - - - - - - - -->
-                        <a class="download-btn" version="1.4" os="mac">
+                        <a class="download-btn" version="1.5" os="mac">
                             <!--span class="glyphicon glyphicon-download"></span--> Download
                         </a>
                     </div>
@@ -58,7 +58,7 @@ $version_ok = false;
                         <!-- - - - - - - - - - - - - - - - - - - - - - - - - - -->
                         <!-- IMPORTANT : ne pas oublier "os" et "version", ainsi que la class "download-btn" -->
                         <!-- - - - - - - - - - - - - - - - - - - - - - - - - - -->
-                        <a class="download-btn" version="1.4" os="win">
+                        <a class="download-btn" version="1.5" os="win">
                             <!--span class="glyphicon glyphicon-download"></span--> Download
                         </a>
                     </div>
@@ -119,7 +119,7 @@ $version_ok = false;
             <div class="title">
                 <i class="glyphicon glyphicon-chevron-right"></i>
                 <i class="glyphicon glyphicon-chevron-down"></i>
-                Version 1.4
+                Version 1.5
             </div>
             <div class="content">
                 <h4>New Features</h4>
